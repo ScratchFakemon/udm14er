@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "udm=14er",
+  "description": "Simplify your Searches.",
+  "version": "0.1",
+  "action": {
+    "default_popup": "toGoogle.html",
+    "default_icon": "udm14er.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["redir.js"],
+      "matches": [
+        "https://google.com/search?q*"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "https://google.com/*"
+  ]
+}
+
+
+
