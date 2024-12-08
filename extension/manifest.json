@@ -4,7 +4,7 @@
   "description": "A simple extension that adds &udm=14 to your Google searches for uninterrupted search results.",
   "version": "1.0",
   "action": {
-    "default_popup": "https://www.google.com",
+    "default_popup": "toGoogle.html",
     "default_icon": "udm14er.png"
   }
 }
